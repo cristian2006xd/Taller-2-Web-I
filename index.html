@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeoDrive Motors</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="/src/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+    <header class="fixed w-full z-50 bg-white/80 backdrop-blur-md shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-tighter text-blue-600">
+                <i class="fas fa-car-side mr-2"></i>NEODRIVE
+            </div>
+            <ul class="hidden md:flex space-x-8 font-medium">
+                <li><a href="/index.html" class="text-blue-600">Inicio</a></li>
+                <li><a href="/src/pages/nosotros.html" class="hover:text-blue-600 transition">Nosotros</a></li>
+                <li><a href="/src/pages/modelos.html" class="hover:text-blue-600 transition">Modelos</a></li>
+                <li><a href="/src/pages/contacto.html" class="hover:text-blue-600 transition">Contacto</a></li>
+            </ul>
+            <a href="/src/pages/"
+                class="bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-blue-700 transition">
+                Explorar Modelos
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="relative h-screen flex items-center justify-center overflow-hidden">
+            <img src="https://i.postimg.cc/yxRd4ZxB/img5.avif" alt="Auto de lujo"
+                class="absolute inset-0 w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black/50"></div>
+
+            <div class="relative z-10 text-center text-white px-4">
+                <span class="uppercase tracking-widest text-sm mb-4 block text-blue-400 font-semibold">Tecnología
+                    Alemana</span>
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+                    Domina el <span class="text-blue-500">Asfalto</span>
+                </h1>
+                <p class="text-lg md:text-xl mb-10 max-w-2xl mx-auto text-gray-200">
+                    Experimenta la combinación perfecta entre potencia, elegancia y sostenibilidad con nuestra nueva
+                    línea 2026.
+                </p>
+                <div class="flex flex-col md:flex-row gap-4 justify-center">
+                    <a href="/src/pages/modelos.html"
+                        class="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-lg font-bold transition flex items-center justify-center">
+                        Ver Catálogo <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                    <a href="/src/pages/historia.html"
+                        class="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-10 py-4 rounded-lg font-bold transition">
+                        Nuestra Historia
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 italic">¿Por qué NeoDrive?</h2>
+                    <div class="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div class="p-8 border border-gray-100 rounded-2xl shadow-sm hover:shadow-xl transition">
+                        <div
+                            class="w-14 h-14 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center text-2xl mb-6">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Seguridad Total</h3>
+                        <p class="text-gray-600">Sistemas de asistencia al conductor con inteligencia artificial de
+                            última generación.</p>
+                    </div>
+                    <div class="p-8 border border-gray-100 rounded-2xl shadow-sm hover:shadow-xl transition">
+                        <div
+                            class="w-14 h-14 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center text-2xl mb-6">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Eco-Friendly</h3>
+                        <p class="text-gray-600">Lideramos la transición hacia motores 100% eléctricos con cero
+                            emisiones.</p>
+                    </div>
+                    <div class="p-8 border border-gray-100 rounded-2xl shadow-sm hover:shadow-xl transition">
+                        <div
+                            class="w-14 h-14 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center text-2xl mb-6">
+                            <i class="fas fa-gas-pump"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Eficiencia Pro</h3>
+                        <p class="text-gray-600">Menor consumo de energía con el máximo rendimiento en cualquier
+                            terreno.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+        <div class="flex flex-col md:flex-row items-center gap-12 text-center md:text-left">
+            <div class="md:w-1/2 flex flex-col items-center md:items-start">
+                <h2 class="text-4xl font-bold mb-6 italic w-full">Ingeniería al Límite</h2>
+                
+                <div class="space-y-4 w-full max-w-lg">
+                    <details
+                        class="group bg-white p-6 rounded-2xl shadow-sm cursor-pointer open:bg-blue-600 open:text-white transition-all text-left"
+                        open>
+                        <summary class="font-bold flex justify-between items-center outline-none">
+                            Motorización Sostenible
+                            <i class="fas fa-plus group-open:rotate-45 transition-transform"></i>
+                        </summary>
+                        <p class="mt-4 text-sm opacity-90">
+                            Motores 100% eléctricos con autonomía de hasta 800km y carga ultra-rápida en 15 minutos.
+                        </p>
+                    </details>
+
+                    <details
+                        class="group bg-white p-6 rounded-2xl shadow-sm cursor-pointer open:bg-blue-600 open:text-white transition-all text-left">
+                        <summary class="font-bold flex justify-between items-center outline-none">
+                            Inteligencia Artificial
+                            <i class="fas fa-plus group-open:rotate-45 transition-transform"></i>
+                        </summary>
+                        <p class="mt-4 text-sm opacity-90">
+                            Copiloto autónomo nivel 4 que aprende de tus rutas y optimiza el consumo de energía.
+                        </p>
+                    </details>
+                </div>
+            </div>
+
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://i.postimg.cc/7PWt0qRX/img16.jpg"
+                    class="rounded-3xl shadow-2xl hover:scale-105 transition-transform duration-500 w-full max-w-md"
+                    alt="Motor">
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="py-16 bg-blue-600 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold mb-4 italic">¿Listo para conducir tu sueño?</h2>
+                <p class="mb-8 text-blue-100">Suscríbete para recibir ofertas exclusivas y lanzamientos de nuevos
+                    modelos.</p>
+                <form class="max-w-md mx-auto flex gap-2">
+                    <input type="email" placeholder="Tu correo electrónico"
+                        class="flex-1 px-4 py-3 rounded-lg text-gray-900 focus:outline-none">
+                    <button
+                        class="bg-gray-900 text-white px-6 py-3 rounded-lg font-bold hover:bg-gray-800 transition">Unirse</button>
+                </form>
+            </div>
+        </section>
+        <div class="py-10 bg-white border-y border-gray-100">
+            <div class="container mx-auto px-6">
+                <p class="text-center text-gray-400 text-xs font-bold uppercase tracking-widest mb-8">Nuestros Aliados
+                    Tecnológicos</p>
+                <div
+                    class="flex flex-wrap justify-center items-center gap-12 opacity-50 grayscale hover:grayscale-0 transition-all">
+                    <i class="fab fa-nvidia text-4xl"></i>
+                    <i class="fab fa-google text-4xl"></i>
+                    <i class="fab fa-apple text-4xl"></i>
+                    <i class="fab fa-amazon text-4xl"></i>
+                    <i class="fab fa-microsoft text-4xl"></i>
+                </div>
+            </div>
+        </div>
+        <section class="py-20 bg-gray-900 overflow-hidden relative">
+            <div class="container mx-auto px-6 relative z-10">
+                <div
+                    class="bg-blue-600 rounded-3xl p-8 md:p-16 flex flex-col md:flex-row items-center justify-between shadow-2xl">
+                    <div class="md:w-2/3 mb-8 md:mb-0">
+                        <h2 class="text-3xl md:text-5xl font-bold text-white mb-4 italic">¿Quieres sentir la potencia?
+                        </h2>
+                        <p class="text-blue-100 text-lg">Agenda una prueba de manejo gratuita en cualquiera de nuestros
+                            centros de experiencia.</p>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <button
+                            class="bg-white text-blue-600 px-8 py-4 rounded-xl font-black uppercase hover:bg-gray-100 transition shadow-xl">
+                            Agendar Test Drive
+                        </button>
+                        <p class="text-white/70 text-xs text-center"><i class="fas fa-map-marker-alt mr-2"></i> Quito,
+                            EC - Av. de los Shyris</p>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute top-0 right-0 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl -mr-32 -mt-32"></div>
+        </section>
+
+
+
+        <footer class="bg-gray-900 text-gray-400 py-12">
+            <div class="container mx-auto px-6 text-center md:text-left">
+                <div class="flex flex-col md:flex-row justify-between items-center border-b border-gray-800 pb-8 mb-8">
+                    <div class="text-2xl font-bold text-white mb-4 md:mb-0">
+                        NEODRIVE
+                    </div>
+                    <div class="flex space-x-6 text-xl">
+                        <a href="#" class="hover:text-blue-500"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="hover:text-blue-500"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="hover:text-blue-500"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <p class="text-sm text-center">© 2026 NeoDrive Motors. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+
+        <script type="module" src="/src/js/main.js"></script>
+</body>
+
+</html>
